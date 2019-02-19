@@ -1,4 +1,4 @@
 crawltool
 =========
 
-before db crawl I had this
+My first attempt at building a webcrawler with a database backend.
