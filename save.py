@@ -1,9 +1,11 @@
 #!/usr/bin/python2.7
 
-# This saves all the newline delimited urls in a file to files in a pic directory
-# you need to make this directory first cause lazy am i.
+# Provided a list of urls (intended to be pointnig to images)
+# this saves all the newline delimited urls in a file to files in a pic directory
+# Please make a directory and suppy it via the commandline when prompted.
 
-
+# To add flexibility and not perform unwanted overwrting, the program asks for a directory.
+# Note, this program should be updated to take the directory as an argument
 
 import argparse
 from urllib2 import *
@@ -12,10 +14,7 @@ import os
 import httplib
 import time
 
-#   take input
-
-
-
+# parse command line 
 parser = argparse.ArgumentParser()
 
 parser.add_argument('file', help ='a file with newline delimited urls to retrieve and save')
