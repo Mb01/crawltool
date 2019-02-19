@@ -1,4 +1,4 @@
 crawltool
 =========
 
-My first attempt at building a webcrawler with a database backend.
+My first attempt at building a webcrawler.
