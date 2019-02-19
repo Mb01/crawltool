@@ -1,1 +1,0 @@
-import webbrowserlinks = open("log.txt", "r").read().split('\n')while links:    toOpen = links[:20]    links = links[20:]    for x in toOpen:        webbrowser.open_new_tab(x)    p = raw_input()
